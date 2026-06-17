@@ -32,7 +32,7 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-slate-50 text-slate-900 font-sans">
+      <body className="min-h-full flex flex-col bg-[#f3f2ef] text-slate-900 font-sans">
         <Providers>
           <header className="sticky top-0 z-50 w-full border-b border-slate-200 bg-white/80 backdrop-blur">
             <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
@@ -55,7 +55,7 @@ export default function RootLayout({
             </div>
           </header>
           
-          <main className="flex-1">
+          <main className="flex-1 min-w-0">
             {children}
           </main>
           
