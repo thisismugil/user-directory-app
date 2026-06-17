@@ -17,6 +17,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "linkedin.com",
   description: "Educational demonstration of publicly exposed directory profiles.",
+  icons: {
+    icon: "/2673777.webp",
+  },
 };
 
 export default function RootLayout({
@@ -35,7 +38,7 @@ export default function RootLayout({
             <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
               <div className="flex items-center gap-6">
                 <Link href="/" className="flex items-center gap-2 font-bold text-xl text-blue-600">
-                  <img src="/2673777.webp" alt="Logo" className="h-8 w-auto object-contain" />
+                  <span className="bg-blue-600 text-white px-2 py-0.5 rounded text-lg font-black tracking-tight">in</span>
                   <span className="text-slate-800 font-semibold tracking-tight">Directory</span>
                 </Link>
                 <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-slate-600">
