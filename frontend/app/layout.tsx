@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Professional Network Directory | LinkedIn Data Exposure Demo",
+  title: "linkedin.com",
   description: "Educational demonstration of publicly exposed directory profiles.",
 };
 
@@ -35,19 +35,19 @@ export default function RootLayout({
             <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
               <div className="flex items-center gap-6">
                 <Link href="/" className="flex items-center gap-2 font-bold text-xl text-blue-600">
-                  <span className="bg-blue-600 text-white px-2 py-0.5 rounded text-lg font-black tracking-tight">in</span>
+                  <img src="/2673777.webp" alt="Logo" className="h-8 w-auto object-contain" />
                   <span className="text-slate-800 font-semibold tracking-tight">Directory</span>
                 </Link>
                 <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-slate-600">
-                  <Link href="/" className="hover:text-blue-600 transition-colors">Directory</Link>
+                  {/* <Link href="/" className="hover:text-blue-600 transition-colors">Directory</Link> */}
                   <Link href="/analytics" className="hover:text-blue-600 transition-colors">Platform Analytics</Link>
                 </nav>
               </div>
               <div className="flex items-center gap-4">
-                <span className="inline-flex items-center gap-1.5 rounded-full bg-emerald-50 px-2 py-1 text-xs font-medium text-emerald-700 border border-emerald-200">
+                {/* <span className="inline-flex items-center gap-1.5 rounded-full bg-emerald-50 px-2 py-1 text-xs font-medium text-emerald-700 border border-emerald-200">
                   <span className="h-1.5 w-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
                   Public API Live
-                </span>
+                </span> */}
               </div>
             </div>
           </header>
